@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		
+	</head>
+	<body>
+		<div class="header_wrap">
+			<div class="header">
+				<div class="top_box">
+				<div class="header_left">
+					<ul>
+						<li><span>30天</span>无障碍退换货</li>
+						<li>丨</li>
+						<li><span>365天</span>客服</li>
+						<li>丨</li>
+						<li>顺丰快递</li>
+						<li>丨</li>
+						<li>主力城市<span>次日送达</span></li>
+						<li>丨</li>
+						<li>&lt;广告&gt;</li>
+					</ul>
+				</div>
+				<div class="header_right">
+					<ul class="header_ul">
+						<li><a href="#" class="header_a">用户登录</a></li>
+						<li>丨</li>
+						<li><a href="#" class="header_a">新用户注册</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="logo_wrap">
+				<div class="logo">
+					<img src="img/logor.jpg"/>
+				</div>
+				<div class="txt">
+					<input type="submit" class="sub" value=""/>
+					<input type="text"placeholder="查找" class="seek"/>
+				</div>
+			</div>
+			
+			<div class="btn_bar_wrap">
+			<div class="btn_bar">
+				<ul class="box1">
+					<li><a href="#">首页</a></li>
+					<li><a href="#">毛衫<img src="img/hot.gif"/></a></li>
+					<li><a href="#">羽绒服</a></li>
+					<li><a href="#">衬衫</a></li>
+					<li><a href="#">呢绒大衣<img src="img/hot.gif"/></a></li>
+					<li><a href="#">皮衣</a></li>
+					<li><a href="#">牛仔系列<img src="img/hot.gif"/></a></li>
+					<li><a href="#">休闲裤</a></li>
+					<li><a href="#">薄便装</a></li>
+					<li><a href="#">皮靴</a></li>
+					<li style="margin: 0;"><a href="#">长T</a></li>
+				</ul>
+				
+				<ul class="box2">
+					
+					<li><a href="#">本周会员专享<img src="img/hot.gif"/></a></li>
+					<li><a href="#">西装定制<img src="img/hot.gif"/></a></li>
+					<li><a href="#">断码清仓</a></li>
+					<li><a href="#">新品发布</a></li>
+					
+				</ul>
+			</div>
+			</div>
+			
+			<div class="header_nav_wrap">
+				<div class="header_nav">
+					<ul class="nav_menu_tit">
+						<li><a href="#">针织衫</a><i></i></li>
+						<li><a href="#">外套</a><i></i></li>
+						<li><a href="#">衬衫</a><i></i></li>
+						<li><a href="#">裤子</a><i></i></li>
+						<li><a href="#">T恤</a><i></i></li>
+						<li><a href="#">男鞋</a><i></i></li>
+						<li><a href="#">内衣</a><i></i></li>
+						<li><a href="#">饰品</a><i></i></li>
+						<li><a href="#">皮包</a><i></i></li>
+						<li><a href="#">皮带</a><i></i></li>
+					</ul>
+					<ul class="nav_menu_tit2">
+						<li><a href="#">会员机制</a></li>
+						<li><a href="#">vivian女装</a></li>
+					</ul>
+					<div class="Scroll_wrap">
+						<ul class="nav_menu">
+							<li><a href="#">长袖毛衫</a></li>
+							<li><a href="#">长袖开衫</a></li>
+							<li><a href="#">毛背心</a></li>
+						</ul>
+						<ul class="nav_menu">
+							<li><a href="#">毛绒服</a></li>
+							<li><a href="#">呢绒大衣</a></li>
+							<li><a href="#">皮衣</a></li>
+							<li><a href="#">薄便装</a></li>
+							<li><a href="#">牛仔外套</a></li>
+							<li><a href="#">御寒外套</a></li>
+							<li><a href="#">卫衣</a></li>
+						</ul>
+						<ul class="nav_menu">
+							<li><a href="#">牛仔衬衫</a></li>
+							<li><a href="#">牛仔衬衫</a></li>
+							<li><a href="#">极简系列</a></li>
+							<li><a href="#">格纹系列</a></li>
+							<li><a href="#">品质系列</a></li>
+							<li><a href="#"><span>短袖衬衫</span></a></li>
+						</ul>
+						<ul class="nav_menu">
+							<li><a href="#"><span>牛仔裤（超柔纱</span></a></li>
+							<li><a href="#">休闲裤</a></li>
+							<li><a href="#">西裤</a></li>
+							<li><a href="#">休闲短裤</a></li>
+						</ul>
+						<ul class="nav_menu">
+							<li><a href="#">长袖T恤</a></li>
+							<li><a href="#">短袖T恤</a></li>
+							<li><a href="#">打底衫</a></li>
+						</ul>
+						<ul class="nav_menu">
+							<li><a href="#"><span>皮靴</span></a></li>
+							<li><a href="#">休闲鞋</a></li>
+							<li><a href="#">正装鞋</a></li>
+							<li><a href="#">运动鞋</a></li>
+							<li><a href="#">凉鞋</a></li>
+						</ul>
+						<ul class="nav_menu">
+							<li><a href="#">男内衣</a></li>
+							<li><a href="#">家居服</a></li>
+							<li><a href="#">内裤</a></li>
+							<li><a href="#">袜子</a></li>
+						</ul>
+						<ul class="nav_menu">
+							<li><a href="#">围巾</a></li>
+							<li><a href="#">方巾</a></li>
+						</ul>
+						<ul class="nav_menu">
+							<li><a href="#"><span>包</span></a></li>
+							<li><a href="#">皮夹</a></li>
+						</ul>
+						<ul class="nav_menu">
+							<li><a href="#">正装皮带</a></li>
+							<li><a href="#">休闲皮带</a></li>
+						</ul>
+						<img src="img/xfdz.jpg"/>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			</div>
+		</div>
+		
+		
+		<div class="fixed_box">
+			<div class="cart">
+				<i class="pic"></i>
+				<p>购物车</p>
+				<div class="quan">0</div>
+				<div class="mycart">我的购物车(0)</div>
+			</div>
+			<div class="property_box">
+				<i></i>
+				<p>资产</p>
+				<div class="quan">0</div>
+				<div class="myproperty">我的资产(0)</div>
+			</div>
+			<div class="order">
+				<i></i>
+				<p>订单</p>
+
+				<div class="myorder">我的订单</div>
+			</div>
+			<div class="collect">
+				<i></i>
+				<p>收藏</p>
+
+				<div class="mycollect">我的收藏</div>
+			</div>
+			<div class="phone">
+				<i></i>
+				<p>手机</p>
+
+				<img src="img/weixin_two.jpg"/>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/header.js" type="text/javascript" charset="utf-8"></script>
+	<!--<script type="text/javascript">
+		$(function(){
+			
+			$(".header_nav_wrap").hover(function(){
+				$(this).css("background","#000")
+				$(".Scroll_wrap").stop().slideDown(200)
+				$(".nav_menu_tit,.nav_menu_tit2").find("li").css("background","#000")
+				$(".nav_menu_tit,.nav_menu_tit2").find("li").find("a").css("color","#fff")
+			},function(){
+				$(this).css("background","#fff")
+				$(".Scroll_wrap").stop().slideUp(100)
+				$(".nav_menu_tit,.nav_menu_tit2").find("li").css("background","#fff")
+				$(".nav_menu_tit,.nav_menu_tit2").find("li").css("color","#666")
+			})
+			$(".nav_menu_tit,.nav_menu_tit2").find("li").hover(function(){
+				$(this).css({"background":"#666"})
+				
+			},function(){
+				
+				$(this).css({"background":"#000"})
+			})
+		})
+	</script>-->
+</html>

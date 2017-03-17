@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	</head>
+	<body>
+		<div class="footer">
+			<div class="img">
+				<img src="img/footer_m_6.jpg"/>
+			</div>
+			<div class="foot_list">
+				<div class="list">
+					<ul>
+						<li>
+							<h6>新手指南</h6>
+							<a href="#">注册新用户</a><br />
+							<a href="#">网站订购流程</a>
+						</li>
+						<li>
+							<h6>售后服务</h6>
+							<a href="#">退换货政策</a><br />
+							<a href="#">鞋类三包政策</a>
+						</li>
+						<li>
+							<h6>客服中心</h6>
+							<a href="#">常见问题</a><br />
+							<a href="#">投诉与建议</a>
+						</li>
+						<li>
+							<h6>如何付款/退款</h6>
+							<a href="#">支付方式及付款等待期限</a><br />
+							<a href="#">常见支付问题</a>
+						</li>
+						<li>
+							<h6>配送方式</h6>
+							<a href="#">配送方式及范围</a><br />
+							<a href="#">货到付款城市目录</a>
+							<a href="#">配送常见问题</a>
+						</li>
+						<li>
+							<h6>技术与服务</h6>
+							<a href="#">B2C仓储服务</a>
+							
+						</li>
+					</ul>
+				</div>
+				<div class="mail">
+					<h3>订阅邮箱</h3>
+					<div>立即订阅，获得每日最新资讯</div>
+					<input type="text" placeholder="请输入你的邮箱地址"/>
+					<a href="#" class="btn">
+						订阅
+					</a>
+				</div>
+				
+			</div>
+			
+			<div class="footer_nav_box">
+				<div class="nav_box">
+				<ul class="nav">
+					<li><a href="#">关于MasaMaso</a></li>
+					<li>丨</li>
+					<li><a href="#">网站地图</a></li>
+					<li>丨</li>
+					<li><a href="#">隐私条款</a></li>
+					<li>丨</li>
+					<li><a href="#">企业订购</a></li>
+					<li>丨</li>
+					<li><a href="#">加入我们</a></li>
+					<li>丨</li>
+					<li><a href="#">帮助中心</a></li>
+					<li>丨</li>
+					<li><a href="#">网站联盟</a></li>
+					<li>丨</li>
+					<li><a href="#">友情链接</a></li>
+					<li>丨</li>
+					<li><i style="float: left;"><img src="img/em_icon.jpg"/></i><a href="#" style="float: right;">总裁邮箱</a></li>
+				</ul>
+				</div>
+				
+				<p class="phone"><span>北京九合尚品科技股份有限公司，电话：010-57790879</span></p>
+				<p class="number">Copyright © 2008-2050 MasaMaso.com All Right Reserved<span>京ICP证080088号， 京ICP备09042941号-8</span>，<i><img src="img/icon-police.png"/></i><span>北京市公安局朝阳分局备案编号：1101051120</span></p>
+			</div>
+		</div>
+	</body>
+</html>

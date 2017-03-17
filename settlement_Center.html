@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<meta charset="utf-8"/>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bridge.css"/>
+</head>
+<style>
+#delivery_address_list_container .rec_addr_lst dd.on{ background:#eee}
+</style>
+<body>
+	<div id="nTalk_post_hiddenElement" style="left: -10px; top: -10px; visibility: hidden; display: none; width: 1px; height: 1px;"></div>
+<div id="wrapper">
+  
+
+<div class="cart_header">
+	<img src="images/masamaso_logo.jpg"/>
+</div>
+<!--//header-->
+  <!--//header-->
+  <div id="direction">
+    <dl class="bc_nav">
+      <dt>结算步骤:</dt>
+      <dd><strong>我的购物车</strong><span>&gt;&gt;</span></dd>
+      <dd><strong class="cur">结算中心</strong><span>&gt;&gt;</span></dd>
+      <dd><strong>订单完成</strong></dd>
+    </dl>
+  </div>
+  <!--container-->
+  <div id="container">
+    <h2 class="title">结算中心</h2>
+    <!--mod box01-->
+    <div class="order_box order_delivery_box">
+      <h3>收货信息 <a href="#" class="order_delivery_close">关闭</a> <span class="cur">老用户请点此<a href="#" class="login sys_login_btn">登录</a>，登录后将自动读取已有地址记录；新用户请填写以下信息继续购物；</span></h3>
+      <div id="order_delivery_info_container">         
+
+<div id="delivery_address_modify_container">
+  <table summary="修改地址" class="add_addr">
+    <caption>
+    修改地址：<strong>带<em>*</em>为必填</strong>
+    </caption>
+    <colgroup>
+    <col width="125">
+    <col width="160">
+    <col width="88">
+    <col width="113">
+    <col width="41">
+    <col>
+    </colgroup>
+    <tbody>
+      <tr>
+        <th width="108"><em>*</em>
+          <label for="">收件人姓名：</label></th>
+        <td width="184"><input class="custName" name="customerName" value=""></td>
+        <td colspan="5"></td>
+      </tr>
+      
+      <tr>
+        <th height="28"><em>*</em>
+          <label for="">选择地区：</label></th>
+        <td colspan="6"><span>
+        	<select style="margin-left:9px" name="province" id="">
+        		<!--<option value="">请选择省</option>-->
+        		        		<option value="0">请选择省</option>
+        		        		<option value="1">北京市</option>
+        		        		<option value="2">天津市</option>
+        		        		<option value="3">河北省</option>
+        		        		<option value="4">山西省</option>
+        		        		<option value="5">内蒙古自治区</option>
+        		        		<option value="6">辽宁省</option>
+        		        		<option value="7">吉林省</option>
+        		        		<option value="8">黑龙江省</option>
+        		        		<option value="9">上海市</option>
+        		        		<option value="10">江苏省</option>
+        		        		<option value="11">浙江省</option>
+        		        		<option value="12">安徽省</option>
+        		        		<option value="13">福建省</option>
+        		        		<option value="14">江西省</option>
+        		        		<option value="15">山东省</option>
+        		        		<option value="16">河南省</option>
+        		        		<option value="17">湖北省</option>
+        		        		<option value="18">湖南省</option>
+        		        		<option value="19">广东省</option>
+        		        		<option value="20">广西壮族自治区</option>
+        		        		<option value="21">海南省</option>
+        		        		<option value="22">重庆市</option>
+        		        		<option value="23">四川省</option>
+        		        		<option value="24">贵州省</option>
+        		        		<option value="25">云南省</option>
+        		        		<option value="26">西藏自治区</option>
+        		        		<option value="27">陕西省</option>
+        		        		<option value="28">甘肃省</option>
+        		        		<option value="29">青海省</option>
+        		        		<option value="30">宁夏回族自治区</option>
+        		        		<option value="31">新疆维吾尔自治区</option>
+        		        		</select>
+        	</span><span>
+        		<select name="city" id="">
+        			<option value="">请选择市</option>
+        			</select>
+        		</span> <span>
+        			<select name="districts" id="">
+        				<option value="" selected="">请选择区</option>
+       				</select>
+        			</span> 
+			
+			<select name="town" id="">
+									<option value="" selected="">朝阳片区</option>
+								
+			</select> <span style="color:#939292">(可选)</span>
+			
+					<span>
+       				
+					
+   				</span></td>
+        </tr>
+      <tr>
+      	<th><em>*</em>
+		<label for="">详细地址：</label></th>
+      	<td colspan="6"><label class="valign" id="address_detail_pre"></label><input name="detailAddress" class="addr" value=""></td>
+      	</tr>
+      
+	  <tr>
+        <th><em>*</em>
+          <label for="">手机号码：</label></th>
+        <td><input name="mobile" value=""></td>
+        <th width="118" align="right" style="width:118px; text-align:right">或 固定电话：</th>
+        <td width="170"><input name="telephone" value=""></td>
+         <td width="308">&nbsp;</td>
+      </tr>
+      <tr><th><em>&nbsp;</em>
+          <label for="">电子邮件：</label></th>
+        <td><input name="email" class="" value=""></td>
+		<th align="right" style="width:118px; text-align:right">QQ：</th>
+        <td><input name="qq" class="" value="" maxlength="12"></td>
+    	<td width="308">
+    		</td></tr></tbody><tfoot>
+      <tr>
+        <td></td>
+        <td colspan="6"><input type="hidden" name="addressId" value="">
+          <button type="submit" class="btn_address_save"></button></td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+
+
+         </div>
+      <div style="overflow:hidden;"><a id="ques1" href="#" class="ques">输入地址遇到问题？请点击这里</a></div> </div>
+    <!--//mod box01-->
+    <!--mod box02-->
+    <div class="order_box" style="display:none">
+      <h3>快递</h3>
+      <form action="http://order.masamaso.com/?c=order&amp;rgphits=p30_msettle_s0_n0">
+        <fieldset>
+          <legend class="blank">快递</legend>
+          <table summary="快递信息列表" class="express">
+            <caption class="blank">
+            快递详细
+            </caption>
+            <colgroup>
+            <col width="129">
+            <col width="127">
+            <col width="67">
+            <col width="149">
+            <col>
+            </colgroup>
+            <tbody>
+              <tr>
+                <th>快递类型</th>
+                <th>快递费</th>
+                <th>预计送达天数</th>
+                <th>说明</th>
+              </tr>
+              <tr>
+                <td>普通快递</td>
+                <td><span>¥</span>0 </td>
+                <td>3-5天</td>
+                <td>满200免运费</td>
+              </tr>
+            </tbody>
+          </table>
+        </fieldset>
+      </form>
+    </div>
+    <!--//mod box02-->
+    <!--mod box03-->
+    <div class="order_box order_payment_box">
+      <h3><strong id="payment_box_title">
+	  配送方式	  </strong> 
+	  
+	  <a href="javascript:void(0)" class=" order_payment_edit">修改</a>
+	  <!-- <a href="javascript:void(0)" class="order_payment_close">关闭</a> --></h3>
+      <div id="order_payment_info_container"> 
+					<div id="order_payment_list_container">
+  <fieldset>
+    <table class="add_addr" summary="修改地址">
+     <tbody><tr>
+        <th>
+          <label style="margin-left:65px" for="">配送时间：</label></th>
+        <td><span class="anytime">
+          <select name="shippingTimes" id="">
+            <option selected="selected" value="" label="请选择">请选择</option>
+             <option value="随时（周1—周日）" key="1" label="随时（周1—周日）" selected="">随时（周1—周日）
+            </option>
+             <option value="办公时间1（周1—周5）" key="2" label="办公时间1（周1—周5）">办公时间1（周1—周5）
+            </option>
+             <option value="办公时间2（周1—周6）" key="3" label="办公时间2（周1—周6）">办公时间2（周1—周6）
+            </option>
+             <option value="非工作时间（周六、周日）" key="4" label="非工作时间（周六、周日）">非工作时间（周六、周日）
+            </option>
+                      </select>
+          </span></td>
+      </tr>
+    </tbody></table>
+	<div class="border_bt">
+ 	<table summary="快递信息列表" class="express">
+      <caption class="blank">
+      快递详细
+      </caption>
+      <colgroup>
+      <col width="129">
+      <col width="127">
+      <col width="76">
+      <col width="140">
+      <col>
+      </colgroup>
+      <tbody>
+        <tr>
+          <th>快递类型</th>
+          <th>快递费</th>
+          <th>预计送达天数</th>
+          <th>说明</th>
+        </tr>
+        <tr>
+          <td>普通快递</td>
+          <td><span>¥</span>0</td>
+          <td>预订3-5天内</td>
+          <td>满200免运费</td>
+        </tr>
+      </tbody>
+    </table>
+	</div>
+	<div style="font:bold 14px SimSun; padding:10px 0">付款方式</div>
+    <ul class="payment">
+       <li> <strong> <input type="radio" name="payment_type" checked="" value="2" paymentname="线上付费">
+      线上付费</strong>       <p><em>享受额外商品9.8折优惠；</em>无手续费；<br>“快捷支付”无需开通网上银行，可支持大额单次支付<br></p><p>网银支付：支持绝大多数银行卡在线支付<br>第三方支付平台：支付宝、快钱、财付通、手机支付、汇付天下</p>
+      </li>
+       <li> <strong> <input type="radio" name="payment_type" value="1" paymentname="货到付款">
+      货到付款</strong>       <p> <input type="radio" name="pay" value="1">
+        <label for="">现金</label>
+        <br>
+        <input type="radio" name="pay" value="2" disabled="">
+        <label for="">POS刷卡</label>
+        <span style="color:#F00">(现仅支持北京、上海、广州、深圳、杭州)</span> </p>
+            <p>无手续费；</p>
+      </li>
+            <li style=" background:none; padding:0px; clear:both; height:0px; overflow:hidden"> </li>
+    </ul>
+    <div class="clear"></div>
+    
+    <input type="image" src="images/btn_pay_delivery.jpg" alt="确认付款及支付方式" class="btn btn_payment_save" style="width:190px">
+  </fieldset>
+  <div style="overflow:hidden"><a href="javascript:;" id="ques" class="ques">
+  	付款遇到问题？请点击这里
+  </a>
+  </div>
+    <div id="ques_tips" class="order_tips">
+  	 <div class="order_tips_top">问题帮助</div>
+	 <ul class="order_tips_info">
+		<li class="bg">
+			<div class="q_top">1、为什么无法提交订单？</div>
+			<p>Q:您好请排除网络不稳定因素外，重新查看订购的商品是否有库存，商品没货也会造成无法正常订购的。</p>
+		</li>
+		<li>
+			<div class="q_top">2、网银无法支付？</div>
+			<p>Q:您好关于网银支付：1：插件问题：请选择IE浏览器，并进行安装相关插件，退出后刷新重新登录进行支付2额度大于银行卡支付限制，请更换银行卡进行支付。</p>
+		</li>
+		<li class="bg">
+			<div class="q_top">3、支付中出现乱码？</div>
+			<p>Q:您好支付中出现乱码：支付过程中，显示支付接口错误，请返回，取消该订单，重新下单进行支付。</p>
+		</li>
+		<li>
+			<div class="q_top">4、提交插件问题？</div>
+			<p>Q:您好出现需要安装插件等原因不能支付的情况，请选择IE浏览器，安装相应的插件，退出后刷新重新登陆进行支付。也可以咨询支付宝官方客服电话0571-88156688；</p>
+		</li>
+	 </ul>
+	 <div class="order_ft"><a class="live_btn" onclick="javascript:ntcall_openInPageChat(&#39;&#39;);" href="javascript:;"><img src="./【结算中心】-玛萨玛索男装(masamaso)官网_files/live_service.jpg"></a>( 如果上述内容未能解决您的问题，您还可点击咨询在线客服 )</div>
+	 <a class="close_tips" href="javascript:;"></a>
+  </div>
+  <div id="ques_tips1" class="order_tips">
+  	 <div class="order_tips_top">问题帮助</div>
+	 <ul class="order_tips_info">
+	 	<li class="bg">
+			<div class="q_top">1、收货地址没有到达地区选择怎么办？</div>
+			<p>Q:您好可以填写您地址较为接近的地区来填写完成地址填写，重新完成订购。如后期订单有问题我们会尽快的与您取得联系。</p>
+		</li>
+	 </ul>
+	 <div class="order_ft"><a class="live_btn" onclick="javascript:ntcall_openInPageChat(&#39;&#39;);" href="javascript:;"><img src="./【结算中心】-玛萨玛索男装(masamaso)官网_files/live_service.jpg"></a>( 如果上述内容未能解决您的问题，您还可点击咨询在线客服 )</div>
+	 <a class="close_tips" href="javascript:;"></a>
+  </div>
+
+<script>
+$(function(){
+		$('#ques').click(function(){
+				$('#ques_tips,.order_tips_bg').show();
+			})
+		$('.order_tips_bg,.close_tips').click(function(){
+				$('#ques_tips,.order_tips_bg').hide();
+			})
+		$('#ques1').click(function(){
+				$('#ques_tips1,.order_tips_bg').show();
+			})
+		$('.order_tips_bg,.close_tips').click(function(){
+				$('#ques_tips1,.order_tips_bg').hide();
+			})
+	})
+</script>
+
+</div>
+<div class="order_tips_bg"></div>
+<script>
+$("#order_payment_list_container .btn_payment_save").click(function (){
+	if (orderSwitch.delivery == 0){
+		showError('请首先保存收货地址')
+		return false;
+	}
+	var paymenttype = $("#order_payment_list_container input[name='payment_type']:checked").val();
+	if (paymenttype == null){
+		showError('请选择支付方式');
+		return false;
+	}
+	var shippingTimes = $("#order_payment_list_container select[name='shippingTimes']").val();
+	//alert(shippingTimes);
+	if(!shippingTimes || shippingTimes == null)
+    {
+        alert('请选择配送时间！');
+        $("#order_payment_list_container select[name='shippingTimes']").focus();
+        return false;
+    }
+	var payment = {
+		paymenttype: paymenttype,
+		paymentname: $("#order_payment_list_container input[name='payment_type']:checked").attr('paymentName'),
+		collectmode: $("#order_payment_list_container input[name='pay']:checked").val(),
+		shippingTimes: shippingTimes
+	}
+	var url = '?c=Payment&a=savePaymentType';
+    $.post(url,payment,function(res){
+		if (res.status == '1'){
+			orderSwitch.payment = 1;
+			payTypeId = res.paymentTypeId;
+			$(".order_payment_box .order_payment_close").removeClass('cur');
+			$(".order_payment_box .order_payment_edit").addClass('cur');
+			$("#order_payment_info_container").html(res.data);
+			$("#order_settlement_info_container").html(res.settlement);
+			$('#payment_box_title').html('配送及支付方式');
+		}
+		else{
+			showAjaxError(res.errorMessage);
+		}
+		
+    },'json')
+})
+$(function (){
+	$("#order_payment_list_container input[name='payment_type']:disabled").attr('checked',false).parents('li').find("input[name='pay']").attr('checked',false).attr('disabled',true);
+})
+$("#order_payment_list_container input[name='payment_type']").click(function (){
+	$(this).parents('li').find("input[name='pay']:first").attr('checked',true);
+	$(this).parents('li').siblings().find("input[name='pay']").attr('checked',false);
+});
+$("#order_payment_list_container input[name='pay']").click(function(){
+	$(this).parents('li').find("input[name='payment_type']").attr('checked',true);	
+})
+</script>
+
+         </div>
+    </div>
+    <!--//mod box03-->
+    <!--mod box04-->
+    <div class="order_box">
+      <h3>商品信息<a href="http://order.masamaso.com/?rgphits=p35_mback_s0_n0" class="cur">修改</a></h3>
+      <table summary="商品信息" class="pro_infor">
+        <caption class="商品信息">
+        </caption>
+        <colgroup>
+        <col width="80">
+        <col width="500">
+        <col width="105">
+        <col width="120">
+        <col width="120">
+        <col width="110">
+        <col width="80">
+        <col>
+        </colgroup>
+        <thead>
+          <tr>
+            <th>商品款号</th>
+            <th>商品名称</th>
+            <th>尺码</th>
+            <th>原价</th>
+            <th>现价</th>
+            <th>数量</th>
+            <th>小计</th>
+          </tr>
+        </thead>
+        <tbody>
+                                <tr>
+          <td valign="top">20564 <span style="display: none" class="productcode">20564-39</span></td>
+          <td valign="top">修身成衣免烫系列/50次水洗不变形/纯棉/蓝色/净色/长袖衬衫</td>
+          <td valign="top">39</td>
+          <td valign="top"><em>¥</em>1499</td>
+          <td valign="top"><em>¥</em>449  </td>
+          <td valign="top">1</td>
+          <td valign="top"><em>¥</em>449
+            </td>
+        </tr>
+                                
+                
+                </tbody>
+        
+      </table>
+    </div>
+    <!--//mod box04-->
+    <!--mod box05-->
+    <div class="order_box">
+      <h3>结算信息</h3>
+      <div id="order_settlement_info_container"> 
+
+<table summary="结算信息" class="billing_infor" width="100%">
+  <thead>
+    <tr>
+      <th>商品原价</th>
+      <th></th>
+      <th>运费</th>
+            <th></th>
+      <th>商品折扣</th>
+                                                
+      <th></th>
+      <th>应付金额</th>
+      </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><em>¥</em>1499</td>
+      <td>+</td>
+      <td><em>¥</em>0</td>
+            <td>-</td>
+      <td><em>¥</em>1050 </td>
+                                          
+      
+             
+      
+      <td>=</td>
+      <td class="last"><em>¥</em>449<br><span style="font:12px/22px Tahoma, Geneva, sans-serif; color:#818181">共节省1050元</span></td>
+      </tr>
+  </tbody>
+</table>
+ </div>
+    </div>
+    <!--//mod box05-->
+    <!--mod box02-->
+    <div class="order_box order_invoice_box">
+      <div action="javas" class="add_option">
+        <fieldset>
+          <legend class="blank">发票</legend>
+          <input type="checkbox" class="checkbox" name="isinvoice" value="1">
+          <label for="">发票&nbsp;&nbsp;</label>
+          <label for="">
+          <span id="invoicetitle_span"></span><a id="invoicetitle_edit" href="javascript:;" style="padding-left:1em; color:#333; text-decoration:underline; display:none">修改</a></label>
+          <div class="" id="isinvoice_form" style="display:none">
+            <p class="hidden" style="padding-top:10px">
+              <label for="">发票抬头：</label>
+              <input maxlength="30" type="" value="" class="text" name="invoicetitle" orivalue="限30字以内">
+              <em>收货人的单位名称或个人姓名</em> </p>
+            <div class="hidden">
+              <label for="">发票内容：</label>
+              <p style="padding-bottom:15px"><strong>服装</strong>温馨提示：您填写的所有内容都将被系统自动打印到发票上，所以请您不要填写和发票抬头无关的信息。<br>
+                发票信息一经提交将无法修改。
+              <input type="image" src="./【结算中心】-玛萨玛索男装(masamaso)官网_files/btn_invoice.gif" class="img btn_invoice_save">
+            </p></div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend class="blank">备注</legend>
+          <div class="fl" style="padding-top:4px">
+            <input type="checkbox" class="checkbox" name="isremark" value="1">
+            <label for="">备注&nbsp;&nbsp;</label>
+            <label for="">
+            <span id="orderEntityremark_span"></span><a id="remark_edit" href="javascript:;" style="padding-left:1em; color:#333; text-decoration:underline; display:none">修改</a> </label></div>
+          <div style="margin-left:82px;display:none; clear:both" id="remark_form">
+            <input type="" maxlength="15" value="" class="text" name="remark" orivalue="限15字以内">
+            <em class="tips">*提示：请勿填写有关支付、收货、发票方面的信息。</em>
+            <input type="image" src="./【结算中心】-玛萨玛索男装(masamaso)官网_files/btn_remarks.gif" style="display:block;margin:31px 0 0 31px" class="btn_remark_save">
+          </div>
+        </fieldset>
+      </div>
+    </div>
+    <!--//mod box02-->
+            <input type="image" src="images/btn_sub_order.jpg" alt="提交订单" class="btn_submit">
+      </div>
+  <!--//container-->
+  <!--footer-->
+  <div id="footer" style="margin-top:12px">
+  <address>
+  Copyright © 2008-2050 MasaMaso.com All Right Reserved 京ICP证080088号
+  </address>
+</div>
+
+
+</div>
+<div class="order_box" id="debugbox" style="position: fixed; top: 0px; right: 0px; width: 100px; border: 1px dashed rgb(153, 0, 0); background: rgb(255, 255, 204); font-size: 12px; padding: 5px 10px; display: none;">Success</div>
+
+</body></html>

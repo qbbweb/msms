@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* duanwenlong 20111212 am 10:20 */
+html,body,div,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,pre,table,thead,tbody,tfoot,tr,th,td,caption,colgroup,col,address,a,span,strong,em,q,applet,embad,q,abbr,form,fieldset,legend,label,textarea,button,select,optgroup,option,input,area,map,img,blockquote,big,small,sup,sub{margin:0;padding:0;font-size:100%}
+html,body{height:100%}
+a img,fieldset{border:0 none}
+strong,em,address{font-weight:normal;font-style:normal}
+ul,ol,li{list-style:none outside none}
+table{border-collapse:collapse}
+a:link,a:hover,a:active,a:visited{text-decoration:none;outline:none;cursor:pointer}
+.fl{float:left}
+.fr{float:right}
+.clear{clear:both;height:0;line-height:normal;font-size:0;visibility:hidden}
+.clearfix:after{content:" ";clear:both;display:block;height:0;font-size:0;visibility:hidden}
+.clearfix{_zoom:1}
+.oc{overflow:hidden;_zoom:1}
+.blank{overflow:hidden;display:none;position:absolute;top:0;left:0;width:0;height:0;visibility:hidden}	

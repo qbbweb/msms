@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/mod.css"/>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+</head>
+
+
+<body>
+	
+<div class="cart_header">
+	<img src="images/masamaso_logo.jpg"/>
+</div>
+<!--//header-->
+  <div id="direction">
+    <dl class="bc_nav">
+      <dt>结算步骤:</dt>
+      <dd><strong class="cur">我的购物车</strong><span>&gt;&gt;</span></dd>
+      <dd><strong>结算中心</strong><span>&gt;&gt;</span></dd>
+      <dd><strong>订单完成</strong></dd>
+    </dl>
+  </div>
+  <!--container-->
+  <div id="container">
+    <h2 class="title gou_iocn">我的购物车</h2>
+    <div class="tips " id="tishi">
+      <p class="fl"><em>温馨提示：</em>目前购物尚未完成，请您尽快完成订单提交，以便我们为您确认库存状态，并及时配送。</p>
+      <a title="关闭" id="close" class="btn_over">关闭</a> </div>
+    <!--shopping box-->
+    <div class="shopping_box">
+      <table summary="我的购物车">
+        <caption class="blank">
+        我的购物车
+        </caption>
+        <colgroup>
+        <col width="67">
+        <col width="350">
+        <col width="77">
+        <col width="77">
+        <col width="82">
+        <col width="142">
+        <col width="82">
+        <col>
+        </colgroup>
+        <thead>
+          <tr>
+            <th>款号</th>
+            <th>商品</th>
+            <th>尺寸</th>
+            <th>原价</th>
+            <th>现价</th>
+            <th>数量</th>
+            <th>小计</th>
+            <th>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!--普通商品-->
+          <tr>
+          <td>20564 <span style="display:none" class="productcode">20564-39</span> <span style="display:none" class="id">3732746</span> <span style="display:none" class="product_level">1</span></td>
+          <td class="pro">
+		  <div class="poreat">
+		  <a class="proa"><img src="images/20564_stg_1.jpg" width="52" height="70" alt=""></a>
+		  <div class="poreImg" style="display: none;">
+		  	<img src="images/20564_sts_1.jpg"></div>
+		  </div>
+            <p> <a><span>修身成衣免烫系列/50次水洗不变形/纯棉/蓝色/净色/长袖衬衫</span></a> </p></td>
+          <td>39</td>
+          <td>¥1499</td>
+          <td>¥449</td>
+          <td>
+              			  <div style="position:relative">
+              <span class="button btn_cut_cart_product_num" style="cursor :pointer"> 
+              	<img src="images/btn_minus.gif" width="11" height="11" alt=""> </span>
+                            <input type="" readonly="readonly" class="num" value="1">
+                            <span class="button btn_add_cart_product_num" style="cursor :pointer"> 
+                            	<img src="images/btn_plus.gif" width="11" height="11" alt=""> </span>
+              			  </div>
+			  </td>
+                        <td>¥449
+             </td>
+          <td><a href="#" class="delete btn_delete">删除</a></td>
+        </tr>
+                
+        <!--套装-->
+                <!--超值换购或赠品-->
+                </tbody>
+        
+      </table>
+    </div>
+    <table summary="购物结算" class="shopping_total">
+      <caption class="blank">
+      购物结算
+      </caption>
+      
+      <tbody>
+        <tr>
+          <td><a href="#" id="btn_clear_cart_product_info">清空购物车</a>&nbsp;&nbsp;<span style="display: none" id="all_product_code"></span>&nbsp;&nbsp;<a href="#" id="btn_delete_cart_product_info">点击查看刚删除商品</a></td>
+          <td class="tips">实际支付金额满<span>￥200.00</span>免运费</td>
+          <td><p style="text-align: left">优惠券折扣：<span>¥0</span></p>
+            <p style="text-align: left">积分折扣：<em>¥0</em></p></td>
+          <td><p style="text-align: left">商品原价：<span>¥1499</span></p>
+            <p style="text-align: left">优惠金额：<em>¥1050</em></p></td>
+          <td><p style="text-align: left">运费：<span>0</span></p>
+            <p style="text-align: left; font-size:14px; font-weight:bold;">商品总金额：<em class="end">¥449</em></p></td>
+        </tr>
+      </tbody>
+    </table>
+    <!--//shopping box-->
+    <!--pay box-->
+    
+    
+    <div class="pay_box">       <p id="tishi2"> <span class="fl">已有账户请点此<a href="#" class="login sys_login_btn">登录</a>；新用户请您继续正常结算</span><a id="close2" class="btn_over">关闭</a> </p>
+            <div> <a href="#"><img src="images/jx_gou.jpg" width="138" height="41" alt=""></a> 
+          <a href="#"><img src="images/btn_settlement.jpg" width="138" height="41" alt=""></a> </div>
+    </div>
+    <!--//pay box-->
+    <div class="clear"></div>
+        <div class="clear"></div>
+        <div class="clear"></div>
+    <div style="clear:both; height:1px; overflow:hidden;"></div>
+    <!--满赠活动　-->
+    <div id="giftProduct"></div>
+        
+    <!--　置前凑单区 -->
+     
+    
+    <!--超值换购-->
+    <div id="exchangeProduct">
+
+ 
+<div class="section_ttl"><a href="#" class="close_btn">收/展</a><h3>订单换购<span><!--(您在换购区、凑单区还可以选择127件商品)--></span><a href="#" class="gift_rule" style="margin-left:25px;display:none">超值换购规则</a> </h3></div>
+<div class="giftBox">
+<ul class="tabbing" id="points_tab">
+        <li><a href="#" class="tab_cur" alt="points_box_1">&gt;&gt; 满300元换购</a></li>
+      </ul>
+<div class="gift"> 
+	 
+	<div class="gift_con tabbing_box_2" id="points_box_1" style="display:inline-block;"> <a href="#" class="arrow left_arrow mart105"></a>
+		<div class="gift_box gift_box2">
+			<ul style="width: 750px;">
+			                <li>              
+              	<div class="listBox exch_gray">
+				<div> <a href="#" style="color:#796353;" class="good_name">
+                            银离子抑...
+                    </a> 
+                    售价：<span class="exchange_product_price exchange_line">49</span>元<br>
+                    
+				  <div class="exch_gray">节省<span class="plus_count">30</span>元&nbsp;换购价：<span class="plus_count">19</span>元</div>
+				  <span>选择尺码：</span>
+				  <select class="exchange_product">
+										<option value="17735-00">均码</option>
+									  </select>
+				  <br>
+				   <a style="margin-top:6px; display:block" href="#" class="add_exchange_product"><img src="images/btn_buy.jpg"></a>  
+                  </div>
+				  <div class="leftImgbox">
+                      <a href="#" style="color:#796353;"><img src="images/17735_stg_1.jpg" width="56" height="75"></a>
+				</div>
+                </div> 
+                
+                               
+                            			                              
+              	<div class="listBox exch_gray">
+				<div> <a href="#" style="color:#796353;" class="good_name">
+                            时尚绅士...
+                    </a> 
+                    售价：<span class="exchange_product_price exchange_line">59</span>元<br>
+                    
+				  <div class="exch_gray">节省<span class="plus_count">40</span>元&nbsp;换购价：<span class="plus_count">19</span>元</div>
+				  <span>选择尺码：</span>
+				  <select class="exchange_product">
+										<option value="17756-00">均码</option>
+									  </select>
+				  <br>
+				   <a style="margin-top:6px; display:block" href="#" class="add_exchange_product"><img src="images/btn_buy.jpg"></a>  
+                  </div>
+				  <div class="leftImgbox">
+                      <a href="#" style="color:#796353;"><img src="images/17756_stg_1.jpg" width="56" height="75"></a>
+				</div>
+                </div> 
+                
+                               
+              </li>              			                <li>              
+              	<div class="listBox exch_gray">
+				<div> <a href="#" style="color:#796353;" class="good_name">
+                            星座物语...
+                    </a> 
+                    售价：<span class="exchange_product_price exchange_line">89</span>元<br>
+                    
+				  <div class="exch_gray">节省<span class="plus_count">50</span>元&nbsp;换购价：<span class="plus_count">39</span>元</div>
+				  <span>选择尺码：</span>
+				  <select class="exchange_product">
+										<option value="16267-M">M</option>
+										<option value="16267-L">L</option>
+										<option value="16267-XL">XL</option>
+										<option value="16267-XXL">XXL</option>
+									  </select>
+				  <br>
+				   <a style="margin-top:6px; display:block" href="#" class="add_exchange_product"><img src="images/btn_buy.jpg"></a>  
+                  </div>
+				  <div class="leftImgbox">
+                      <a href="#" style="color:#796353;"><img src="images/16267_stg_1.jpg" width="56" height="75"></a>
+				</div>
+                </div> 
+                
+                               
+                            			                              
+              	<div class="listBox exch_gray">
+				<div> <a href="#" style="color:#796353;" class="good_name">
+                            遇见未来...
+                    </a> 
+                    售价：<span class="exchange_product_price exchange_line">89</span>元<br>
+                    
+				  <div class="exch_gray">节省<span class="plus_count">60</span>元&nbsp;换购价：<span class="plus_count">29</span>元</div>
+				  <span>选择尺码：</span>
+				  <select class="exchange_product">
+										<option value="17962-M">M</option>
+										<option value="17962-L">L</option>
+										<option value="17962-XL">XL</option>
+										<option value="17962-XXL">XXL</option>
+									  </select>
+				  <br>
+				   <a style="margin-top:6px; display:block" href="#" class="add_exchange_product"><img src="images/btn_buy.jpg"></a>  
+                  </div>
+				  <div class="leftImgbox">
+                      <a href="#" style="color:#796353;"><img src="images/17962_stg_1.jpg" width="56" height="75"></a>
+				</div>
+                </div> 
+                
+                               
+              </li>              			                <li>              
+              	<div class="listBox exch_gray">
+				<div> <a href="#" style="color:#796353;" class="good_name">
+                            星际穿越...
+                    </a> 
+                    售价：<span class="exchange_product_price exchange_line">89</span>元<br>
+                    
+				  <div class="exch_gray">节省<span class="plus_count">50</span>元&nbsp;换购价：<span class="plus_count">39</span>元</div>
+				  <span>选择尺码：</span>
+				  <select class="exchange_product">
+										<option value="17631-M">M</option>
+										<option value="17631-L">L</option>
+										<option value="17631-XL">XL</option>
+										<option value="17631-XXL">XXL</option>
+									  </select>
+				  <br>
+				   <a style="margin-top:6px; display:block" href="#" class="add_exchange_product"><img src="images/btn_buy.jpg"></a>  
+                  </div>
+				  <div class="leftImgbox">
+                      <a href="#" style="color:#796353;"><img src="images/17631_stg_1.jpg" width="56" height="75"></a>
+				</div>
+                </div> 
+                
+                               
+                            			                              
+              	<div class="listBox exch_gray">
+				<div> <a href="#" style="color:#796353;" class="good_name">
+                            方巾
+                    </a> 
+                    售价：<span class="exchange_product_price exchange_line">69</span>元<br>
+                    
+				  <div class="exch_gray">节省<span class="plus_count">50</span>元&nbsp;换购价：<span class="plus_count">19</span>元</div>
+				  <span>选择尺码：</span>
+				  <select class="exchange_product">
+										<option value="16761-00">均码</option>
+									  </select>
+				  <br>
+				   <a style="margin-top:6px; display:block" href="#" class="add_exchange_product"><img src="images/btn_buy.jpg"></a>  
+                  </div>
+				  <div class="leftImgbox">
+                      <a href="#" style="color:#796353;"><img src="images/16761_stg_1.jpg" width="56" height="75"></a>
+				</div>
+                </div> 
+                
+                               
+              </li>                                            			  			</ul>
+		</div>
+		<a href="#" class="arrow right_arrow mart105"></a>
+		<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+</div></div></div>
+    
+    
+  
+  
+  <!--//container-->
+  <!--footer-->
+  <div id="footer" style="margin-top:12px">
+  <address>
+  Copyright © 2008-2050 MasaMaso.com All Right Reserved 京ICP证080088号
+  </address>
+</div>
+
+<!-- 有道DSP代码 -->
+
+
+
+</body>
+</html>

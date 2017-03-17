@@ -1,0 +1,8 @@
+@charset "utf-8";
+*{margin: 0;padding: 0;}
+a{text-decoration: none; color: #000;}
+ul,li{list-style: none;}
+a:hover{text-decoration: underline;}
+img{border: none;}
+img:hover{cursor: pointer;}
+body{font-family: "微软雅黑","华文楷书","宋体";font-size: 15px;}

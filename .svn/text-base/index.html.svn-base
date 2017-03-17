@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/move.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="top_wrap"><img src="img/lm1.jpg" class="top_one"/><img src="img/lm2.jpg" class="top_two"/></div>
+		<div class="header"></div>
+		
+		<div id="banner_wrap">
+			<div class="banner">
+				<div class="banner_pic">
+					<img src="img/SFMwIayA26d3ox172515.jpg"/>
+					<img src="img/sfPgQpPTJpqsvW170815.jpg"/>
+					<img src="img/ZYvyLsiD2PdxPS171415.jpg"/>
+				</div>
+				<div class="_banner_spic">
+					<img src="img/SFMwIayA26d3ox172515.jpg"/>
+					<img src="img/sfPgQpPTJpqsvW170815.jpg"/>
+					<img src="img/ZYvyLsiD2PdxPS171415.jpg" class="col"/>
+				</div>
+			</div>
+		</div>
+		
+		<div id="scroll_bar_wrap">
+			<div class="scroll_bar">
+				<h4 class="scroll_bar_name">最新公告:</h4>
+				<div class="scroll_con_wrap">
+				<ul class="scroll_con">
+					<li><a href="#" style="color: red;">圣诞节&nbsp;买一送一</a></li>
+					<li><a href="#" style="color: #333;">新品皮具预售专场</a></li>
+					<li><a href="#" style="color: red;">羽绒服尝鲜价899元</a></li>
+					<li><a href="#" style="color: #333;">羊绒衫新品预售899元起</a></li>
+					<li><a href="#" style="color: red;">会员专享</a></li>
+					<li><a href="#" style="color: #333;">商务牛仔裤199元起</a></li>
+					<li><a href="#" style="color: red;">反季特卖劲爆一折</a></li>
+					<li><a href="#" style="color: #333;">超柔软牛仔裤&nbsp;买就送编织腰带</a></li>
+					<li><a href="#" style="color: red;">80g轻软羽绒服</a></li>
+					<li><a href="#" style="color: #333;">满1000就减&nbsp;最低五折</a></li>
+				</ul>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="content_wrap">
+			<div class="con_hr">
+				<div></div>
+				<span>2016时尚风标</span>
+			</div>
+			
+			<div class="content_byc_wrap">
+			<div class="content_byc">
+					<div class="content_byc_pic01 pics">
+						<img class="bigpic" src="img/p1.jpg"/>
+					    <img class="spic" src="img/LWGZcZl7p0C0Gs115706.jpg"/>
+						<div class="content_byc_box">
+						<div class="content_byc_tit">时尚潮流风</div>
+						<div class="content_byc_jieshao">酷作为男人的必备元素之一，无时无刻在吸引着各路型男的目光。环保的面料，独特的设计风格，精致的工艺，打造最帅酷型，今秋必备！</div>
+						<div class="link">点击进入</div>
+						</div>
+					</div>
+					
+					<div class="content_byc_pic02 pics">
+						<img class="bigpic" src="img/p2.jpg"/>
+					    <img class="spic" src="img/IXkqVI4eU4SOIF185529.jpg"/>
+						<div class="content_byc_box">
+						<div class="content_byc_tit">休闲商务风</div>
+						<div class="content_byc_jieshao">“宁愿休闲，不想商务！” 但是没办法，毕竟还有客户召见、向老板汇报！其实只要把休闲装品质做更好一些，就会显得商务了！</div>
+						<div class="link">点击进入</div>
+						</div>
+					</div>
+					<div class="content_byc_pic03 pics">
+						<img class="bigpic" src="img/p3.jpg"/>
+					    <img class="spic" src="img/i0zKtuqJVR4ZNO152736.jpg"/>
+					    
+						<div class="content_byc_box">
+						<div class="content_byc_tit">牛仔风</div>
+						<div class="content_byc_jieshao">还有什么比牛仔裤更能随心搭配呢？你在这可以玩经典、玩时尚、玩工匠手艺、玩版型、玩弹力、玩舒适!</div>
+						<div class="link">点击进入</div>
+						</div>
+					</div>
+					<div class="content_byc_pic04 big pics">
+					    <img class="bigpic" src="img/p4.jpg"/>
+					    <img class="spic" src="img/GZjsfwiLiwPUWD180517.jpg"/>
+						<div class="content_byc_box">
+						<div class="content_byc_tit">温暖有型风</div>
+						<div class="content_byc_jieshao">谁说温度和风度不能兼得！加厚保暖羽绒服流线设计，让你的腰身依旧挺拔有线条，温暖一冬不畏严寒！</div>
+						<div class="link">点击进入</div>
+						</div>
+					</div>
+				
+			</div>
+			
+			</div>
+			
+			<div class="cut">
+			<div class="cut_hr">
+				<div></div>
+				<span>热售推荐</span>
+			</div>
+			<div class="cut_wrap">
+			<ul class="cut_tit">
+				<li class="black">秋冬新品推荐</li>
+				<li>毛衫</li>
+				<li>秋冬外套</li>
+				<li>衬衫</li>
+				<li>T恤</li>
+				<li>裤子</li>
+				<li>男鞋</li>
+			</ul>
+			
+			<div class="conPic_block">
+			<div class="conPic_wrap">
+			<div class="cut_con_one conPic">
+			<div class="cut_con_wrap">
+				<div class="cut_con" style="margin: 0;">
+					<img src="img/20414_sts_1.jpg"/>
+					<p class="tet">温暖奢华系列/保暖/100%羊毛/中灰...</p>
+					<p class="money">￥409</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20416_sts_1.jpg"/>
+					<p class="tet">温暖奢华系列/保暖/100%羊毛/深玫...</p>
+					<p class="money">￥409</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20533_sts_1.jpg"/>
+					<p class="tet">温暖奢华系列/保暖/100%羊毛/中灰...</p>
+					<p class="money">￥399</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20545_sts_1.jpg"/>
+					<p class="tet">温暖奢华系列/保暖/100%羊毛/花紫...</p>
+					<p class="money">￥399</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20806_sts_1.jpg"/>
+					<p class="tet">毛呢中长系列/防风/锦氨/藏蓝/净...</p>
+					<p class="money">￥1579</p>
+				</div>
+			</div>
+			
+			<div class="cut_con_wrap">
+				<div class="cut_con" style="margin: 0;">
+					<img src="img/20227_sts_1.jpg"/>
+					<p class="tet">80克轻暖系列/防风保暖环保/100%...</p>
+					<p class="money">￥459</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20757_sts_1.jpg"/>
+					<p class="tet">经典商务系列/防风保暖/75%聚酯纤...</p>
+					<p class="money">￥899</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20523_sts_1.jpg"/>
+					<p class="tet">时尚休闲系列/舒适弹力/棉弹/靛蓝...</p>
+					<p class="money">￥259</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/19311_sts_1.jpg"/>
+					<p class="tet">休闲潮靴系列/牛皮/拼接/蓝色/压...</p>
+					<p class="money">￥699</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20816_sts_1.jpg"/>
+					<p class="tet">航天抑菌防臭系列/吸湿排汗/精梳...</p>
+					<p class="money">￥129</p>
+				</div>
+			</div>
+			
+			
+			</div>
+			
+			<div class="cut_con_one conPic">
+			<div class="cut_con_wrap">
+				<div class="cut_con" style="margin: 0;">
+					<img src="img/20413_sts_1.jpg"/>
+					<p class="tet">温暖奢华系列/保暖/100%羊毛/黑色...</p>
+					<p class="money">￥409</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20548_sts_1.jpg"/>
+					<p class="tet">温暖奢华系列/保暖/100%羊毛/黑色...</p>
+					<p class="money">￥399</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20542_sts_1.jpg"/>
+					<p class="tet">温暖奢华系列/保暖/100%羊毛/兰上...</p>
+					<p class="money">￥399</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20415_sts_1.jpg"/>
+					<p class="tet">温暖奢华系列/保暖/100%羊毛/墨兰...</p>
+					<p class="money">￥409</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20563_sts_1.jpg"/>
+					<p class="tet">温暖奢华系列/保暖/100%羊毛/上青...</p>
+					<p class="money">￥399</p>
+				</div>
+			</div>
+			
+			<div class="cut_con_wrap">
+				<div class="cut_con" style="margin: 0;">
+					<img src="img/20543_sts_1.jpg"/>
+					<p class="tet">温暖奢华系列/保暖/100%羊毛/浅花...</p>
+					<p class="money">￥399</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20538_sts_1.jpg"/>
+					<p class="tet">温暖奢华系列/保暖/100%羊毛/上青...</p>
+					<p class="money">￥399</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20531_sts_1.jpg"/>
+					<p class="tet">温暖奢华系列/保暖/100%羊毛/黑色...</p>
+					<p class="money">￥399</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20544_sts_1.jpg"/>
+					<p class="tet">温暖奢华系列/保暖/100%羊毛/高粱...</p>
+					<p class="money">￥399</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20492_sts_1.jpg"/>
+					<p class="tet">优雅绅士系列/提花/腈纶混纺/黑色...</p>
+					<p class="money">￥259</p>
+				</div>
+			</div>
+			
+			
+			</div>
+			
+			
+			<div class="cut_con_one conPic">
+			<div class="cut_con_wrap">
+				<div class="cut_con" style="margin: 0;">
+					<img src="img/20759_sts_1.jpg"/>
+					<p class="tet">经典商务系列/防风保暖/100%聚酯...</p>
+					<p class="money">￥899</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/18602_sts_1.jpg"/>
+					<p class="tet">精致时尚系列/拼接/聚酯纤维/灰色...</p>
+					<p class="money">￥459</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20228_sts_1.jpg"/>
+					<p class="tet">80克轻暖系列/保暖/锦纶/浅咖色/...</p>
+					<p class="money">￥499</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/18457_sts_1.jpg"/>
+					<p class="tet">80克轻暖系列/保暖/锦纶/黑色/拼...</p>
+					<p class="money">￥499</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/18712_sts_1.jpg"/>
+					<p class="tet">毛呢中长系列/拼接/羊毛混纺/黑色...</p>
+					<p class="money">￥899</p>
+				</div>
+			</div>
+			
+			<div class="cut_con_wrap">
+				<div class="cut_con" style="margin: 0;">
+					<img src="img/18593_sts_1.jpg"/>
+					<p class="tet">毛呢短款系列/保暖/羊毛混纺/深蓝...</p>
+					<p class="money">￥799</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/18607_sts_1.jpg"/>
+					<p class="tet">经典单皮系列//绵羊皮/酒红/净色...</p>
+					<p class="money">￥2079</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20740_sts_1.jpg"/>
+					<p class="tet">经典单皮系列/山羊皮/黑色/净色/...</p>
+					<p class="money">￥1999</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20734_sts_1.jpg"/>
+					<p class="tet">温暖奢华系列/保暖/100%羊毛/高粱...</p>
+					<p class="money">￥399</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20735_sts_1.jpg"/>
+					<p class="tet">经典单皮系列/山羊皮/黑色/净色/...</p>
+					<p class="money">￥2079</p>
+				</div>
+			</div>
+			
+			
+			</div>
+			
+			
+			<div class="cut_con_one conPic">
+			<div class="cut_con_wrap">
+				<div class="cut_con" style="margin: 0;">
+					<img src="img/17252_sts_1.jpg"/>
+					<p class="tet">品质提花系列/长绒棉/深蓝色/净色...</p>
+					<p class="money">￥299</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/15795_sts_1.jpg"/>
+					<p class="tet">经典异色领系列/色织/长绒棉/浅蓝...</p>
+					<p class="money">￥299</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/16234_sts_1.jpg"/>
+					<p class="tet">至臻纯色系列/纯棉/白色/净色/休...</p>
+					<p class="money">￥259</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/17986_sts_1.jpg"/>
+					<p class="tet">至臻纯色系列/棉氨/粉色/净色/正...</p>
+					<p class="money">￥299</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/16091_sts_1.jpg"/>
+					<p class="tet">潮流印提花系列/印花/纯棉/白色/...</p>
+					<p class="money">￥299</p>
+				</div>
+			</div>
+			
+			<div class="cut_con_wrap">
+				<div class="cut_con" style="margin: 0;">
+					<img src="img/18421_sts_1.jpg"/>
+					<p class="tet">欧式极简系列/色织/纯棉/浅蓝色/...</p>
+					<p class="money">￥399</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/18420_sts_1.jpg"/>
+					<p class="tet">雅致条纹系列/色织/纯棉/浅蓝色/...</p>
+					<p class="money">￥399</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/15806_sts_1.jpg"/>
+					<p class="tet">精致格纹系列/色织/长绒棉/深蓝色...</p>
+					<p class="money">￥299</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/18370_sts_1.jpg"/>
+					<p class="tet">品质提花系列/聚酯纤维/藏青色/提...</p>
+					<p class="money">￥299</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/18418_sts_1.jpg"/>
+					<p class="tet">欧式极简系列/色织/纯棉/浅蓝色/...</p>
+					<p class="money">￥399</p>
+				</div>
+			</div>
+			
+			
+			</div>
+			
+			
+			<div class="cut_con_one conPic">
+			<div class="cut_con_wrap">
+				<div class="cut_con" style="margin: 0;">
+					<img src="img/20727_sts_1.jpg"/>
+					<p class="tet">针织衬衫款系列/舒适保暖/羊毛混...</p>
+					<p class="money">￥369</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20732_sts_1.jpg"/>
+					<p class="tet">针织衬衫款系列/舒适保暖/羊毛混...</p>
+					<p class="money">￥359</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/12697_sts_1.jpg"/>
+					<p class="tet">商务针织衬衫款系列/丝光棉/红棕...</p>
+					<p class="money">￥359</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/12702_sts_1.jpg"/>
+					<p class="tet">商务针织衬衫款系列/拉绒保暖/丝...</p>
+					<p class="money">￥359</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/19300_sts_1.jpg"/>
+					<p class="tet">潮男印花系列/棉氨/黑色/胶印/长...</p>
+					<p class="money">￥259</p>
+				</div>
+			</div>
+			
+			<div class="cut_con_wrap">
+				<div class="cut_con" style="margin: 0;">
+					<img src="img/18735_sts_1.jpg"/>
+					<p class="tet">商旅彩条系列/天丝毛腈/电光蓝/条...</p>
+					<p class="money">￥299</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/18867_sts_1.jpg"/>
+					<p class="tet">商旅彩条系列/纯棉/草绿/条纹/长...</p>
+					<p class="money">￥359</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20667_sts_1.jpg"/>
+					<p class="tet">温暖拉绒系列/拉绒保暖/羊毛混纺...</p>
+					<p class="money">￥359</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20668_sts_1.jpg"/>
+					<p class="tet">温暖拉绒系列/拉绒保暖/羊毛混纺...</p>
+					<p class="money">￥359</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20349_sts_1.jpg"/>
+					<p class="tet">时尚潮男系列/胶印/棉氨/黑色/印...</p>
+					<p class="money">￥259</p>
+				</div>
+			</div>
+			
+			
+			</div>
+			
+			
+			<div class="cut_con_one conPic">
+			<div class="cut_con_wrap">
+				<div class="cut_con" style="margin: 0;">
+					<img src="img/20558_sts_1.jpg"/>
+					<p class="tet">时尚休闲系列/超柔纱/棉弹/靛蓝色...</p>
+					<p class="money">￥299</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20510_sts_1.jpg"/>
+					<p class="tet">时尚休闲系列/舒适弹力/棉弹/靛蓝...</p>
+					<p class="money">￥199</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20529_sts_1.jpg"/>
+					<p class="tet">时尚休闲系列/超柔纱/棉弹/靛蓝色...</p>
+					<p class="money">￥299</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20027_sts_1.jpg"/>
+					<p class="tet">锥形牛仔系列/3D洗水/手擦猫须/磨...</p>
+					<p class="money">￥319</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20525_sts_1.jpg"/>
+					<p class="tet">时尚休闲系列/舒适弹力/棉弹/深靛...</p>
+					<p class="money">￥259</p>
+				</div>
+			</div>
+			
+			<div class="cut_con_wrap">
+				<div class="cut_con" style="margin: 0;">
+					<img src="img/16656_sts_1.jpg"/>
+					<p class="tet">自由弹力系列/化纤混纺/灰蓝/净色...</p>
+					<p class="money">￥359</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/16798_sts_1.jpg"/>
+					<p class="tet">经典商务系列/棉锦氨/卡其/净色/...</p>
+					<p class="money">￥359</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/19229_sts_1.jpg"/>
+					<p class="tet">舒适保姆裤/尼龙氨混纺/灰绿/休闲...</p>
+					<p class="money">￥299</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20185_sts_1.jpg"/>
+					<p class="tet">经典商务系列/高品质丝毛面料/丝...</p>
+					<p class="money">￥299</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/17342_sts_1.jpg"/>
+					<p class="tet">欧洲商务风格/藏蓝/时尚双色面料...</p>
+					<p class="money">￥199</p>
+				</div>
+			</div>
+			
+			
+			</div>
+			
+			
+			<div class="cut_con_one conPic">
+			<div class="cut_con_wrap">
+				<div class="cut_con" style="margin: 0;">
+					<img src="img/17840_sts_1.jpg"/>
+					<p class="tet">牛津系列/透气/牛皮/黑色/拼接/正...</p>
+					<p class="money">￥499</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20289_sts_1.jpg"/>
+					<p class="tet">时尚商务/时尚舒适/牛皮/咖色/拼...</p>
+					<p class="money">￥509</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20243_sts_1.jpg"/>
+					<p class="tet">时尚休闲/潮流舒适/超纤皮/白色擦...</p>
+					<p class="money">￥329</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20252_sts_1.jpg"/>
+					<p class="tet">时尚休闲/潮流舒适/弹力布/蓝色/...</p>
+					<p class="money">￥269</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/18990_sts_1.jpg"/>
+					<p class="tet">休闲潮鞋系列/牛皮/拼接/棕色/光...</p>
+					<p class="money">￥599</p>
+				</div>
+			</div>
+			
+			<div class="cut_con_wrap">
+				<div class="cut_con" style="margin: 0;">
+					<img src="img/19026_sts_1.jpg"/>
+					<p class="tet">休闲潮鞋系列/牛皮/拼接/黑色/光...</p>
+					<p class="money">￥599</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20284_sts_1.jpg"/>
+					<p class="tet">时尚运动/舒适透气/牛皮/黑色/拼...</p>
+					<p class="money">￥469</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/19871_sts_1.jpg"/>
+					<p class="tet">休闲潮鞋系列/弹力舒适/牛皮弹力...</p>
+					<p class="money">￥349</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/20256_sts_1.jpg"/>
+					<p class="tet">时尚休闲/潮流舒适/弹力布/黑色/...</p>
+					<p class="money">￥269</p>
+				</div>
+				
+				<div class="cut_con">
+					<img src="img/18923_sts_1.jpg"/>
+					<p class="tet">商务休闲靴子系列/牛皮/编织/深蓝...</p>
+					<p class="money">￥599</p>
+				</div>
+			</div>
+			
+			
+			</div>
+			
+			</div>
+			</div>
+			
+			
+			</div>
+			
+			
+			</div>
+			<div class="pic_warp">
+			<div class="picqu">
+			<div class="con_hr">
+				<div></div>
+				<span>活动主题篇</span>
+			</div>
+			<div class="picqu_pic">
+			<div class="big"><img src="img/1S2UibDFHpobvL175932.jpg"/><div class="picqu_pic_con"><p>倒计时</p><h1>买3免1 满399送暖心围巾</h1></div></div>
+			<div class="small" style="margin: 20px 0 0 0;"><img src="img/XsInCpTp2i1M72173733.jpg"/><div class="picqu_pic_con"><p>随心选 任性购</p><h1>冬装清仓专区</h1></div></div>
+			<div class="small"><img src="img/k1oGcYHDhpE4zp174125.jpg"/><div style="width: 250px;" class="picqu_pic_con"><p style="width: 250px;">80g轻暖羽绒服</p><h1 style="width: 250px;">超越季节和场合的全新羽绒系列</h1></div></div>
+			<div class="small"><img src="img/30EhXdae0Zvz4N111508.jpg"/><div class="picqu_pic_con"><p>新品100%羊绒衫</p><h1>899元起</h1></div></div>
+			<div class="small" style="margin: 20px 0 0 0;"><img src="img/GQfYWYN4CHv4Rx174433.jpg"/><div class="picqu_pic_con"><p>拼的就是速度 玩的就是心跳</p><h1>秒杀专场9.9元起</h1></div></div>
+			</div>
+			
+			
+			</div>
+			</div>
+			
+			<div class="pic_wrap">
+				<div class="picqu">
+				<div class="con_hr">
+				<div></div>
+				<span>经典专区</span>
+				</div>
+				<div class="picqu_pic">
+				<div class="small"><img src="img/CzKrYjcbNEkiok111312.jpg"/><div class="picqu_pic_con"><p>本周新品</p><h1>"装"出男神范</h1></div></div>
+				<div class="small"><img src="img/wFp1RH3xFO6X0v133937.jpg"/><div class="picqu_pic_con"><p>体验你的专属产品</p><h1>享受你的专属价格</h1></div></div>
+				<div class="small" style="margin: 20px 0 0 0;"><img src="img/wz7EsmPE3J2DvC170839.jpg"/><div class="picqu_pic_con"><p>超柔纱牛仔裤</p><h1>买就送编织腰带</h1></div></div>
+				<div class="small"><img src="img/g5pJMHrUAUvCE7112810.jpg"/><div class="picqu_pic_con"><p>新品长袖毛衫</p><h1>399元起</h1></div></div>
+				<div class="big" style="margin: 20px 0 0 0;"><img src="img/zddjII0ka0gyT7113610.jpg"/><div class="picqu_pic_con"><p>新品皮具</p><h1>时尚尊贵专属</h1></div></div>
+				</div>
+			</div>
+			
+			</div>
+			
+			<div class="pic_wrap">
+				<div class="picqu">
+				<div class="con_hr">
+				<div></div>
+				<span>时尚资讯</span>
+				</div>
+				<ul class="pic_li">
+					<li class="oLi">
+						<img src="img/TToq3TdSuthsZh162457.jpg"/>
+						<p class="p1"><a href="#">好男人都该拥有这几款西装</a></p>	
+						<p class="p2">讲究的男人都有那么几套像样的西装。如果你正在去订购西装的路上，先别急。不是任选一套西装任何场合都可以穿的。比如，黑色西装？如果你不是要去参加颁奖典礼或者去结婚，那还是避免吧。白色西装？不是白马王子还是不要挑战。真正会穿的人掌握这几套才够品。</p>
+						<a href="#" style="font-size: 12px;position: absolute;bottom: 30px;left: 10px;color: #2a2a2a;">点击查看详情</a>
+					</li>
+					<li class="oLi">
+						<img src="img/zjS6QrD6oUFMoW184732.jpg"/>
+						<p class="p1"><a href="#">潮人教你怎么穿羽绒服不土</a></p>	
+						<p class="p2">大家都裹上羽绒服了吧，对于讲究造型的时尚人士来说，羽绒服怎么穿才不土呢？本期跟随小编来一起看下潮人是怎么穿羽绒服的。</p>
+						<a href="#" style="font-size: 12px;position: absolute;bottom: 30px;left: 10px;color: #2a2a2a;">点击查看详情</a>
+					</li>
+					<li style="margin: 20px 0 0 0;"><img src="img/weixin_two.jpg"/></li>
+				</ul>
+			</div>
+			<div class="pic_end">
+			<img src="img/FbntQap3FJcuqa170713.jpg"/>
+			<div class="picqu_pic_con"><p>倒计时</p><h1>买3免1 满399送暖心围巾</h1>
+			</div>
+			</div>
+			
+			
+		</div>
+		
+		
+		<div id="footer_wrap">
+			<div class="footer"></div>
+		</div>
+		
+	</body>
+	
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+</html>
